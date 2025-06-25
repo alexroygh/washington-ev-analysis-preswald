@@ -1,0 +1,28 @@
+[project]
+title = "Preswald Project"
+version = "0.1.0"
+port = 8501
+slug = "my-assessment-app-522074"
+entrypoint = "hello.py"
+
+[branding]
+name = "Preswald Project"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.owid_co2]
+type = "csv"
+path = "data/owid-co2-data.csv"
+
+[data.qs_world_university]
+type = "csv"
+path = "data/2026-QS-World-University-Rankings.csv"
+
+[data.electric_vehicles]
+type = "csv"
+path = "data/Electric_Vehicle_Population_Data.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
